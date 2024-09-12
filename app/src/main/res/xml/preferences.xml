@@ -1,0 +1,39 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory android:layout="@layout/title_recognition_preference_category">
+
+        <EditTextPreference
+            android:defaultValue="@string/default_command_turnOn_flashlight"
+            android:icon="@drawable/icon_flashlight_on"
+            android:key="@string/key_command_turnOn_flashlight"
+            android:title="@string/title_preferences_command_turnOn_flashlight"
+            app:useSimpleSummaryProvider="true" />
+
+        <EditTextPreference
+            android:defaultValue="@string/default_command_turnOff_flashlight"
+            android:icon="@drawable/icon_flashlight_off"
+            android:key="@string/key_command_turnOff_flashlight"
+            android:title="@string/title_preferences_command_turnOff_flashlight"
+            app:allowDividerAbove="true"
+            app:allowDividerBelow="true"
+            app:useSimpleSummaryProvider="true" />
+
+        <ListPreference
+            android:defaultValue="@string/default_recognition_language"
+            android:entries="@array/recognition_languages_titles"
+            android:entryValues="@array/recognition_languages_values"
+            android:icon="@drawable/icon_language"
+            android:key="@string/key_recognition_language"
+            android:title="@string/title_preferences_recognition_language"
+            app:allowDividerAbove="true"
+            app:allowDividerBelow="true"
+            app:useSimpleSummaryProvider="true" />
+
+        <Preference
+            android:layout="@layout/recognition_recommendation"
+            android:selectable="false" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

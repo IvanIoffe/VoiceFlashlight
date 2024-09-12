@@ -1,0 +1,12 @@
+<resources>
+    <string-array name="recognition_languages_titles">
+         <item>Русский</item>
+         <item>Английский</item>
+    </string-array>
+
+    <string-array name="recognition_languages_values">
+        <item>ru-RU</item>
+        <item>en-US</item>
+    </string-array>
+
+</resources>

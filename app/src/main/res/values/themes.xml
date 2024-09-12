@@ -1,0 +1,7 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.VoiceFlashlight" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/blue</item>
+    </style>
+
+    <style name="Theme.VoiceFlashlight" parent="Base.Theme.VoiceFlashlight" />
+</resources>

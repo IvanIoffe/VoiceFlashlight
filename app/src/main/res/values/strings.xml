@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Voice Flashlight</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <string name="start_voice_control_flashlight">Включить управление голосом</string>
+    <string name="permission_dialog_explanation_text">
+        Чтобы управлять фонариком голосом нужно разрешение на запись аудио. Хотите дать разрешение?
+    </string>
+    <string name="dialog_positive_button_text">Да</string>
+    <string name="dialog_negative_button_text">Нет</string>
+
+    <string name="title_menu_item_settings">Настройки</string>
+    <string name="key_command_turnOn_flashlight">commandTurnOnFlashlight</string>
+    <string name="key_command_turnOff_flashlight">commandTurnOffFlashlight</string>
+    <string name="key_recognition_language">recognitionLanguage</string>
+    <string name="title_recognition_preference_category">Распознавание</string>
+    <string name="title_preferences_command_turnOn_flashlight">Команда для включения фонарика</string>
+    <string name="title_preferences_command_turnOff_flashlight">Команда для выключения фонарика</string>
+    <string name="title_preferences_recognition_language">Язык распознавания</string>
+    <string name="default_command_turnOn_flashlight">Люмос</string>
+    <string name="default_command_turnOff_flashlight">Нокс</string>
+    <string name="default_recognition_language">ru-RU</string>
+    <string name="recognition_recommendation_text">
+        Чтобы распознавание работало корректно, пишите команды на том языке, который выбрали для распознавания.
+    </string>
+
+    <string name="message_about_incorrect_string">
+        Команда должна содержать только прописные или строчные буквы алфавита того языка,
+        который Вы выбрали для распознавания речи и не более 1 одного пробела между словами.
+    </string>
+
+    <string name="message_about_extra_whitespace">Команда не должна содержать лишние пробелы</string>
+
+</resources>
