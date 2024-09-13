@@ -1,7 +1,28 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <PreferenceCategory android:layout="@layout/title_recognition_preference_category">
+    <PreferenceCategory android:layout="@layout/title_permission_preference_category">
+
+        <Preference
+            android:icon="@drawable/icon_microphone"
+            android:key="@string/title_preferences_record_audio_permission"
+            android:title="@string/title_preferences_record_audio_permission"
+            app:allowDividerAbove="false"
+            app:allowDividerBelow="false">
+
+        </Preference>
+
+        <Preference
+            android:layout="@layout/hint_managing_permissions"
+            android:selectable="false"
+            app:allowDividerAbove="false"
+            app:allowDividerBelow="false" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="@string/title_recognition_preference_category"
+        android:layout="@layout/title_recognition_preference_category">
 
         <EditTextPreference
             android:defaultValue="@string/default_command_turnOn_flashlight"

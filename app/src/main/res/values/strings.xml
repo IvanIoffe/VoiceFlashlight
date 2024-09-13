@@ -8,11 +8,16 @@
     </string>
     <string name="dialog_positive_button_text">Да</string>
     <string name="dialog_negative_button_text">Нет</string>
+    <string name="no_access_voice_control_flashlight">Вам не доступно голосовое управление фонариком</string>
 
     <string name="title_menu_item_settings">Настройки</string>
     <string name="key_command_turnOn_flashlight">commandTurnOnFlashlight</string>
     <string name="key_command_turnOff_flashlight">commandTurnOffFlashlight</string>
     <string name="key_recognition_language">recognitionLanguage</string>
+    <string name="title_permission_preference_category">Разрешения</string>
+    <string name="title_preferences_record_audio_permission">Запись аудио</string>
+    <string name="summary_if_permission_granted">Разрешено</string>
+    <string name="summary_if_permission_denied">Не разрешено</string>
     <string name="title_recognition_preference_category">Распознавание</string>
     <string name="title_preferences_command_turnOn_flashlight">Команда для включения фонарика</string>
     <string name="title_preferences_command_turnOff_flashlight">Команда для выключения фонарика</string>
@@ -20,15 +25,14 @@
     <string name="default_command_turnOn_flashlight">Люмос</string>
     <string name="default_command_turnOff_flashlight">Нокс</string>
     <string name="default_recognition_language">ru-RU</string>
+    <string name="hint_managing_permission">Нажмите на разрешение, чтобы предоставить или отозвать его.</string>
     <string name="recognition_recommendation_text">
         Чтобы распознавание работало корректно, пишите команды на том языке, который выбрали для распознавания.
     </string>
-
     <string name="message_about_incorrect_string">
         Команда должна содержать только прописные или строчные буквы алфавита того языка,
         который Вы выбрали для распознавания речи и не более 1 одного пробела между словами.
     </string>
-
     <string name="message_about_extra_whitespace">Команда не должна содержать лишние пробелы</string>
 
 </resources>

@@ -39,7 +39,7 @@ class MainActivity : AppCompatActivity() {
                 } else {
                     Toast.makeText(
                         this,
-                        NO_ACCESS_VOICE_CONTROL_FLASHLIGHT,
+                        R.string.no_access_voice_control_flashlight,
                         Toast.LENGTH_LONG
                     ).show()
                 }
@@ -111,10 +111,5 @@ class MainActivity : AppCompatActivity() {
 
     private fun requestRecordAudioPermission() {
         requestPermissionLauncher.launch(Manifest.permission.RECORD_AUDIO)
-    }
-
-    companion object {
-        const val NO_ACCESS_VOICE_CONTROL_FLASHLIGHT =
-            "Вам не доступно голосовое управление фонариком"
     }
 }

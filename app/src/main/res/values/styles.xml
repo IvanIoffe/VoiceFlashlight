@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
     <style name="TitlePreferenceCategoryStyle">
         <item name="android:paddingHorizontal">22dp</item>
         <item name="android:paddingVertical">8dp</item>
         <item name="android:textSize">14sp</item>
         <item name="android:textStyle">bold</item>
         <item name="android:textColor">@color/color_titlePreferenceCategory</item>
+    </style>
+
+    <style name="ExplanationOfSettings">
+        <item name="android:lineSpacingExtra">5dp</item>
+        <item name="android:paddingHorizontal">22dp</item>
+        <item name="android:paddingVertical">8dp</item>
+        <item name="android:textSize">14sp</item>
     </style>
 
 </resources>
